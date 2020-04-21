@@ -1,4 +1,6 @@
 import pandas as pd
+import matplotlib.pyplot as plt
+from pandas.plotting import andrews_curves
 
 names = ['Topic', 'Weight', 'Words']
 
