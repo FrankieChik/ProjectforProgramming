@@ -45,12 +45,12 @@ del df['Tent']
 
 print("\n After adding three new columns and deleting the original column : \n", df)
 
-df.sort_values(by=['Year', 'Author'], axis=0, ascending=True, inplace=True)
-print (df)
-
 # Problem remains: I have six txt files which do not have the Authors' names in their title, which make my list looks strange.
 mask = pd.to_numeric(df['Author'], errors='coerce').notnull()
 df[mask] = df[mask].shift(axis=1)
+
+df.sort_values(by=['Year', 'Author'], axis=0, ascending=True, inplace=True)
+print (df)
 
 # Now, we can print the list of files my data set has.
 df.to_csv('/Users/hinmingfrankiechik/Desktop/Bibliography.csv', index = False)
