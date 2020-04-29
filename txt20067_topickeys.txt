@@ -1,0 +1,10 @@
+0	0.00974	hpag1 gene protein chag gastric pylori isol strain patient transport genom cell wa hypothet thi ph type present dna sequenc 
+1	0.04443	heparin pubm deliveri manuscript drug author absorpt rout administr ufh effect system lmwh enhanc releas control skin thi molecular pharm 
+2	0.1662	human diseas host thi popul chang pylori microbi antibiot organ effect microb affect ha select microbiota 2006 develop ecolog anim 
+3	0.09839	cell intestin immun gut commens toler antigen immunol respons flora bacteria mice system epitheli induct 2005 2004 express dc regulatori 
+4	0.14951	bt3172 thetaiotaomicron express gene domain mice thi diet htc protein sensor wt polysaccharid interact fig pr gut colon metabol glycan 
+5	0.05323	mice 129s6 metabol plasma hfd fig balb glucos cholin strain liver thi microbiota gut lfd insulin diet nmr nafld methylamin 
+6	0.04897	thetaiotaomicron smithii mice fig wa cecal colon gene level content format increas thi gut biassoci piger gordon acet monoassoci support 
+7	0.05696	obes food adipos gene journal leptin tissu express regul intak neuron adipocyt 2000 metabol receptor nutrit increas involv 2001 activ 
+8	0.13267	gut commun microbi sequenc microbiota divers speci select 16 patient bacteria 2005 wa host bacteri genom rrna studi gene librari 
+9	0.09064	cell thi author gene doi studi show speci protein differ 2006 rna model wa respons genom activ function research system 
