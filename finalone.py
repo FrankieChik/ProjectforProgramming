@@ -32,8 +32,12 @@ ignored_files={'.DS_Store', 'desktop.ini', 'Huovinen.dataset'}
 sorted(filelist)
 
 for path, dirs, files in os.walk(corpus):
+    dirs.sort()
+    for dir in dirs:
+        print(os.path.join(path, dir))
     for file in files:
         if file not in ignored_files:
+            print(os.path.join(path, dir, file))
             filelist.append(os.path.join(file))
 
 # Print all the files in all subdirectories.
@@ -92,8 +96,11 @@ lemmatizer = WordNetLemmatizer()
 
 
 for path, dirs, files in os.walk('/Users/hinmingfrankiechik/Desktop/text_files'):
+    
     for file in files:
+        dirs.sort()
         if file not in ignored_files:
+            print(os.path.join(path, dir, file))
             with open(os.path.join(path, file)) as rf:
                 text = rf.read()
                 tokenized_texts = nltk.word_tokenize(text)
