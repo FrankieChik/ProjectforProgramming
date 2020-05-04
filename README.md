@@ -22,7 +22,7 @@ You can find the code in Bibliography.py
   Also, I see some documents which are not in txt.file format.  
   Thus, I add a list which contains all non txt.files that I should ignore in my analysis.  
   Also, I have to use **dirs.sort()** to sort all subdirectories so that all files will list chronologically.  
-  My method in creating a bibliography is to use **pandas dataframe**. The titles of all documents are presented in a Series of this pandas dataframe. Since the titles of the documents consist of the authors' names, years, and titles, with each component separated by "_-_", I can split the Series into three columns by "_-_" accordingly.  
+  My method in creating a bibliography is to use **pandas dataframe**. The titles of all documents are presented in a Series of this pandas dataframe. Since the titles of the documents consist of the authors' names, years, and titles, with each component separated by **"__-__"**, I can split the Series into three columns by "__-__" accordingly.  
   My bibliography shows that there are 400 files in totoal. 
   * Bar plot  
 
