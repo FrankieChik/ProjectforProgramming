@@ -30,5 +30,8 @@ You can find the code in Bibliography.py
   In contrast, the numbers of publications in the first six years are drastically lower than the numbers in 2008-2009.  For instance, 2001 only contains one documents.  
   
 ## Preprocessing Data  
-
+The bibliography I created also tells me that many of the articles are related to ecology and biology. However, what particular topics this corpus contains?
+In order to figure out the hidden topics in my corpus, I would first need to clean the texts. 
+1. Cleaning the texts  
+  hjhj
 <>
