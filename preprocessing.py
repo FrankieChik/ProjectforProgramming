@@ -11,7 +11,7 @@ from gensim.models import Phrases
 from gensim.models.phrases import Phraser
 from nltk.util import ngrams
 
-# This page of code processes the corpus and run the topic modelling.
+# This page of code preprocesses the corpus and run the topic modelling.
 
 corpus='/Users/hinmingfrankiechik/Desktop/text_files'
 
@@ -26,8 +26,6 @@ labels = []
 stop_words = nltk.corpus.stopwords.words('english')
 print(len(stop_words))
 
-# However, the list originally in NLTK is not enough. I have tried to analyze my data set but some words like 'Author', numbers of years were included.
-# Thus, I have to create an extended stop words list.
 stop_words.extend ([
     'jstor', 'author', 'which', 'who', 'hello', 'school', 'from', 'subject', 'edu', 'use',
     'pp', 'data', 'al', 'vol', 'Open', 'access', 'accepted', 'received', 'article', 'available', 'license'
