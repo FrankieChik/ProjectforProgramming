@@ -17,7 +17,7 @@ I create a bibliography and a bar plot in this part of my project.
 You can find the code in Bibliography.py
   * Bibliography  
   I first use the **os.walk()** in Pyhton to go over the entire corpus.   
-  The problem I first encountered is that the files are not listed in chronological order.
+  The problem I first encountered is that the files are not listed in chronological order.  
   Thus, I have to use **dirs.sort()** to sort all subdirectories so that all files will list chronologically.  
   
   * Bar plot  
