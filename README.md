@@ -57,3 +57,6 @@ In order to figure out the hidden topics in my corpus, I would first need to cle
   I first see the weights of those topics in certain documents. Since the file contains some exponiental numbers, I used **float_format** to float the number into **5** decimal places. We This convertion is essential becasue I need to know which is the dominant topic of a particular document. In doing so, I use **np.argmax** to calculate the largest values on a row and show it in a new column named 'Dominant Topic'. We can conclude based on this information that in how many docunments a topic serves as its dominant topic.  
   
 ## Visualization  
+
+## Interpretation  
+
