@@ -59,16 +59,22 @@ In order to figure out the hidden topics in my corpus, I would first need to cle
   
 ## Visualization  
 1. 
+
 ## Interpretation  
-Based on *txt200_keytopics.txt*, we can determine the meanings of each topic. I copy the result and interprete the meanings  as follows:
-0: "activ obes effect pubm cell receptor metabol regul rat mous respons signal adipos_tissu diet control induc mechan adipocyt protein diabet". **This topic includes something relate to nutrition. Since rat and mouse (mous) are listed, it may talk about controlling the diet of a rat based on the nutrition of foods.**  
-1: "thetaiotaomicron gut genom diet microbiota microbiom commun human gut_microbiota speci host microbi_commun sequenc bacteroidet pubm defin protein sampl compon repres" **This topic is related to the microbiota in a human's gut.**  
-2: "cell bacteria infect activ respons mous pathogen lp host epitheli_cell ibd induc diseas colon gut antigen intestin bacteri immun interact" **This topic may suggest that human may be infected by mouse which contains pathogen.**  
-3: "metabolit metabol model bile_acid metabolom sampl proﬁl observ correl method peak mous plasma acid urin spectrum variat metabonom extract liver" **This is a topic of experiment in which a one's guts such as liver and gall are sample to be studied.**  
-4: "probiot diseas effect child microbiota lactobacillu infect infant eﬀect colon diarrhea human pubm microb intestin research nutrit improv strain supplement"
-5	0.10513	sampl sequenc detect bacteria divers subject speci clone pcr primer rrna_gene product repres commun isol microbiota patient method obtain comparison 
-6	0.08742	mous cell anim colon experi control steril strain isol cultur medium infect assay level tube zebrafish show perform indic fish 
-7	0.13069	sequenc genom metagenom sampl method protein cluster commun databas contig read approach assembl set dna speci exampl fragment case popul 
-8	0.19995	host human microb bacteria exampl pathogen research speci biolog interact microbi infect diseas chees requir process genet insect specif evolut 
-9	0.1057	protein strain genom plasmid activ bacteria coli isol lactobacillu speci encod sequenc enzym growth pathway identiﬁ bacteriol speciﬁc cell presenc 
+Based on *txt200_keytopics.txt*, we can determine the meanings of each topic. I interprete the meanings as follows (see *txt200_keytopics.txt* for the keyterms of each topic):
+0. This topic includes something relate to nutrition. Since rat and mouse (mous) are listed, it may talk about controlling the diet of a rat based on the nutrition of foods.  
+1. This topic is related to the microbiota in a human's gut.  
+2. This topic may suggest that human may be infected by mouse which contains pathogen.  
+3. This is a topic of experiment in which a one's guts such as liver and gall are sample to be studied.  
+4. This topic may talk about some research on the probability a baby or a child has of being infected due to the probiotic in his intestine.  
+5.	This topic may touch on the issue of organ-cloning and organ transplantation becasue "clone" and "patient" are mentioned.  
+6.	Related to animals, this topic cover the experiment different animals' propagation in different situations.  
+7. This topic introduce a database in which one can find infomration about aniimals' genome or biology. It also covers instrcution on using this database.  
+8.	It may be about the development of human's disease, and by touching an insect which contains pathogen, one would get sick.
+9. This is about intestinal diseases and how one can prevent them.  
+All topics are biological, ecological, and medical in nature. We can speculate, according to these ten topics, the entire corpus contains research paper which a scholars of biology, microbiology, nutriology, and pathology  will use.  
+
+## Reflection  
+
+
 
