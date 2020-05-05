@@ -232,6 +232,7 @@ print(doc_topic_info)
 
 # The weights contain some exponential numbers. So I need to float them in my pandas datafrmae.
 pd.options.display.float_format = '{:.5f}'.format
+# I set the float as {:.5f} becasue some numbers will become 0 if I use {:.2f} instead.
 df1=pd.DataFrame(doc_topic_info)
 # transpose the rows and columns in the df.
 df1_transposed=df1.T
