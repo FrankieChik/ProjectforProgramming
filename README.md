@@ -74,7 +74,7 @@ Based on *txt200_keytopics.txt*, we can determine the meanings of each topic. I 
 4. This topic may talk about some research on the probability a baby or a child has of being infected due to the probiotic in his intestine.  
 5.	This topic may touch on the issue of organ-cloning and organ transplantation becasue "clone" and "patient" are mentioned.  
 6.	Related to animals, this topic cover the experiment different animals' propagation in different situations.  
-7. This topic introduce a database in which one can find infomration about aniimals' genome or biology. It also covers instrcution on using this database.  
+7. This topic introduces a database in which one can find infomration about aniimals' genome or biology. It also covers instrcution on using this database.  
 8.	It may be about the development of human's disease, and by touching an insect which contains pathogen, one would get sick.
 9. This is about intestinal diseases and how one can prevent them.  
 
