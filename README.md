@@ -7,7 +7,8 @@ The corpus I will use **text_files** in this project is provided by the instruct
 This corpus has **nine** subdirectories, and all files are categorized into these nine subdirectories according to the years they were published (2001-2009).
 In preparation, I have read two articles provided. They are:  
   *  "Topic modeling made just simple enough"  
-  *  "Analyzing Documents with TF-IDF"
+  *  "Analyzing Documents with TF-IDF"  
+The entire code is in 05042020.py.  
 
 ## Bibliography  
 I am not familiar with the corpus. Thus, I have to know how many documents my corpus have and the number of them in each year.  
