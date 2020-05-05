@@ -185,6 +185,18 @@ for topic in topics:
 # See the Topic weights.
 ##############################################################################################################################
 
+# This part is just a change. I change to define function here so that I can skip the number of code.
+
+def open_a_file('txt_file'):
+    with open('txt_file') as rf:
+        result=rf.read().split("\n")
+        result=[item for item in result if item != ""]
+    return open_a_file
+
+topic_model_result=open_a_file('/Users/hinmingfrankiechik/Desktop/txt200_topickeys.txt')
+print(topic_model_result)
+##############################################################################################################################
+
 with open('/Users/hinmingfrankiechik/Desktop/txt200_topickeys.txt') as rf:
     topic_model_result = rf.read().split("\n")
     topic_model_result = [item for item in topic_model_result if item != ""]
