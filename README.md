@@ -73,9 +73,12 @@ Based on *txt200_keytopics.txt*, we can determine the meanings of each topic. I 
 7. This topic introduce a database in which one can find infomration about aniimals' genome or biology. It also covers instrcution on using this database.  
 8.	It may be about the development of human's disease, and by touching an insect which contains pathogen, one would get sick.
 9. This is about intestinal diseases and how one can prevent them.  
+
 All topics are biological, ecological, and medical in nature. We can speculate, according to these ten topics, the entire corpus contains research paper which a scholars of biology, microbiology, nutriology, and pathology  will use.  
 
 ## Reflection  
-
+I thiink a librarian may find the first section of my code useful in sorting out the materials he/she has. A researcher who is about to start his/her research project will also find it useful to get a firs impressioin on the corpus he/ she has (in terms of the size of the corpus).  
+This is a humanist's preliminary attempt to write Python code to run a topic modelling. You may see that the entire code is only about 220 lines. I know some programmers can wrtie a code with more than 1000 lines. Thus, this code would not be too good enough. However, for those beginners, like me, who have no programming experience may use my code as an exampe to try a very preliminary and basic topic modelling analysis.  
+Nevertheless, I find the 
 
 
