@@ -29,7 +29,7 @@ You can find the code in Bibliography.py
   We can see on the bar plot that most of the files in my corpus are from the subfirectory of 2008 (more than 175), with the 2009 immedately follows it (around 150).  
   In contrast, the numbers of publications in the first six years are drastically lower than the numbers in 2008-2009.  For instance, 2001 only contains one documents.  
   
-## Preprocessing Data  
+## Topic Modelling 
 The bibliography I created also tells me that many of the articles are related to ecology and biology. However, what particular topics this corpus contains?
 In order to figure out the hidden topics in my corpus, I would first need to clean the texts. 
 1. Cleaning the texts  
@@ -46,10 +46,10 @@ In order to figure out the hidden topics in my corpus, I would first need to cle
   author' to my entended stopwords list **stop_words.extend** .  
   A new text **new_corpus** is now created for us to do a more accruate topic modelling. 
 
-## Topic Modelling  
-Unlike "Topic modeling made just simple enough", I decide to use LDA Mallet to conduct my topic modelling analysis.  
-My reason is that Mallet provides a more accruate reason. I have tried noth LDA Model and LDA Mallet. Although the time I spent on using the first one is less than that on the latter, the result of Mallet is suggested to be more accruate. Moreover, the Mallet allows me to save the topic modelling results in several files which can make my next step much easiler.  
-Before applying LDA Mallet, I have used **id2word()** to make a dictionary in which a word will be shwon in this way, for instance, {1, 2}. The key is the id of the word while the value is its frequency in a document.  
-**id2word.filter_extremes** allows me, on the other hand, to delete those words appear in less than 5 files (no_below=5). Should I also add (no_above=0.5)?   
-I can process my topic modelling. In my analysis, I decide to come up with *10* topics with each topic consists of *20* words.  The number of topics as well as the numbers of keywords are for my convience only. Of course, having *20* topics can make the project more complicated but accurated. But at this moment, I think even an analysis with *10* topics is enough to see any hidden topics in mu corpus.  
-My analysis was saved in multiple files. I can load *'CDH598_200.p'* by using **LdaModel.load** to get the result back. This file saves the sum of the topics and the key terms that form a certain topic with their term weights. I will use this file later.  
+2. Saving the data  
+  Unlike "Topic modeling made just simple enough", I decide to use LDA Mallet to conduct my topic modelling analysis.  
+  My reason is that Mallet provides a more accruate reason. I have tried noth LDA Model and LDA Mallet. Although the time I spent on using the first one is less than that on the latter, the result of Mallet is suggested to be more accruate. Moreover, the Mallet allows me to save the topic modelling results in several files which can make my next step much easiler.  
+  Before applying LDA Mallet, I have used **id2word()** to make a dictionary in which a word will be shwon in this way, for instance, {1, 2}. The key is the id of the word while the value is its frequency in a document.  
+  **id2word.filter_extremes** allows me, on the other hand, to delete those words appear in less than 5 files (no_below=5). Should I also add (no_above=0.5)?   
+  I can process my topic modelling. In my analysis, I decide to come up with *10* topics with each topic consists of *20* words.  The number of topics as well as the numbers of keywords are for my convience only. Of course, having *20* topics can make the project more complicated but accurated. But at this moment, I think even an analysis with *10* topics is enough to see any hidden topics in mu corpus.  
+  My analysis was saved in multiple files. I can load *'CDH598_200.p'* by using **LdaModel.load** to get the result back. This file saves the sum of the topics and the key terms that form a certain topic with their term weights. I will use this file later.  
