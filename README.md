@@ -54,9 +54,21 @@ In order to figure out the hidden topics in my corpus, I would first need to cle
   I can process my topic modelling. In my analysis, I decide to come up with *10* topics with each topic consists of *20* words.  The number of topics as well as the numbers of keywords are for my convience only. Of course, having *20* topics can make the project more complicated but accurated. But at this moment, I think even an analysis with *10* topics is enough to see any hidden topics in mu corpus.  
   My analysis was saved in multiple files. I can load *'CDH598_200.p'* by using **LdaModel.load** to get the result back. This file saves the sum of the topics and the key terms that form a certain topic with their term weights. I will use this file later.  
   *txt200_doctopics.txt* and *txt200_keytopics.txt* are both text files in which I can use to calculae the weights of each topic in the entire corpus and in a certain document.  
-  I first see the weights of those topics in certain documents. Since the file contains some exponiental numbers, I used **float_format** to float the number into **5** decimal places. We This convertion is essential becasue I need to know which is the dominant topic of a particular document. In doing so, I use **np.argmax** to calculate the largest values on a row and show it in a new column named 'Dominant Topic'. We can conclude based on this information that in how many docunments a topic serves as its dominant topic.  
+  I first see the weights of those topics in certain documents. Since the file contains some exponiental numbers, I used **float_format** to float the number into **5** decimal places. We This convertion is essential becasue I need to know which is the dominant topic of a particular document. In doing so, I use **np.argmax** to calculate the largest values on a row and show it in a new column named 'Dominant Topic'. We can conclude based on this information that in how many docunments a topic serves as the dominant topic.  
+  The information in *txt200_keytopics.txt* is quite easy to understand. This document tells is the overall weights of each topic in the corpus. We can see in this document that topic number 8, which is the nineth topic, is the most dominant one.  
   
 ## Visualization  
-
+1. 
 ## Interpretation  
+Based on *txt200_keytopics.txt*, we can determine the meanings of each topic. I copy the result and interprete the meanings  as follows:
+0: "activ obes effect pubm cell receptor metabol regul rat mous respons signal adipos_tissu diet control induc mechan adipocyt protein diabet". This topic includes something relate to nutrition. Since rat and mouse (mous) are listed, it may talk about controlling the diet of a rat based on the nutrition of foods.  
+1: "thetaiotaomicron gut genom diet microbiota microbiom commun human gut_microbiota speci host microbi_commun sequenc bacteroidet pubm defin protein sampl compon repres" This topic is related to the microbiota in a human's gut.  
+2: "cell bacteria infect activ respons mous pathogen lp host epitheli_cell ibd induc diseas colon gut antigen intestin bacteri immun interact" This topic may suggest that human may be infected by mouse which contains pathogen.  
+3: "metabolit metabol model bile_acid metabolom sampl proﬁl observ correl method peak mous plasma acid urin spectrum variat metabonom extract liver" This is a topic of experiment in which a one's guts such as liver and gall are sample to be studied.  
+4: "probiot diseas effect child microbiota lactobacillu infect infant eﬀect colon diarrhea human pubm microb intestin research nutrit improv strain supplement"
+5	0.10513	sampl sequenc detect bacteria divers subject speci clone pcr primer rrna_gene product repres commun isol microbiota patient method obtain comparison 
+6	0.08742	mous cell anim colon experi control steril strain isol cultur medium infect assay level tube zebrafish show perform indic fish 
+7	0.13069	sequenc genom metagenom sampl method protein cluster commun databas contig read approach assembl set dna speci exampl fragment case popul 
+8	0.19995	host human microb bacteria exampl pathogen research speci biolog interact microbi infect diseas chees requir process genet insect specif evolut 
+9	0.1057	protein strain genom plasmid activ bacteria coli isol lactobacillu speci encod sequenc enzym growth pathway identiﬁ bacteriol speciﬁc cell presenc 
 
