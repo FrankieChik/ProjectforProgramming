@@ -6,7 +6,7 @@ As will shown, the project has different sections.
 The corpus I will use **text_files** in this project is provided by the instructors.  
 This corpus has **nine** subdirectories, and all files are categorized into these nine subdirectories according to the years they were published (2001-2009).
 In preparation, I have read three articles provided. They are:  
-  *  
+  *  "Topic modeling made just simple enough"  
   *  
   *  
 
@@ -40,10 +40,16 @@ In order to figure out the hidden topics in my corpus, I would first need to cle
   **lower()** is also an important step that allows me to convert all words into lowercase. Thus, the words in my expended stopwords list can be typed in lowercase form.  
   **bigram** and **trigram** are also used, but I am not 100% sure how effective they are in my preprocessing.  
   Through these processes, we come with a list of 400 lists of strings. I thereofre have **isinstance()** to convert them into a lost of strings without split the strings.  
-  At the end, I can apply **FreqDist()** to search for 500 most common words in my corpus.  
+  At the end, I can apply **FreqDist()** to search for 500 most common words in my corpus. 
+  Here, I did not use the method in Lavin's article. My main reason is that my purpose is to know the most common word, but not to know the term frequency weights of each word. As a result, **FreqDist()** is enough to fulfill this purpose.     
   After a scrutiny of the most common words, I add those common but unnecessary terms like 'read', 'jstor', and 
   author' to my entended stopwords list **stop_words.extend** .  
   A new text **new_corpus** is now created for us to do a more accruate topic modelling. 
 
 ## Topic Modelling  
-
+Unlike "Topic modeling made just simple enough", I decide to use LDA Mallet to conduct my topic modelling analysis.  
+My reason is that Mallet provides a more accruate reason. I have tried noth LDA Model and LDA Mallet. Although the time I spent on using the first one is less than that on the latter, the result of Mallet is suggested to be more accruate. Moreover, the Mallet allows me to save the topic modelling results in several files which can make my next step much easiler.  
+Before applying LDA Mallet, I have used **id2word()** to make a dictionary in which a word will be shwon in this way, for instance, {1, 2}. The key is the id of the word while the value is its frequency in a document.  
+**id2word.filter_extremes** allows me, on the other hand, to delete those words appear in less than 5 files (no_below=5). Should I also add (no_above=0.5)?   
+I can process my topic modelling. In my analysis, I decide to come up with *10* topics with each topic consists of *20* words.  The number of topics as well as the numbers of keywords are for my convience only. Of course, having *20* topics can make the project more complicated but accurated. But at this moment, I think even an analysis with *10* topics is enough to see any hidden topics in mu corpus.  
+My analysis was saved in multiple files. I can load *'CDH598_200.p'* by using **LdaModel.load** to get the result back. This file saves the sum of the topics and the key terms that form a certain topic with their term weights. I will use this file later.  
