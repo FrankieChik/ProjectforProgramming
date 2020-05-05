@@ -21,6 +21,7 @@ import warnings
 import seaborn as sns
 from decimal import *
 
+##############################################################################################################################
 # The first task I want to do, is to create a list in which I can see the name of the files and the number of them.
 # The code here is my first attempt.
 # The following code direct us to data set which will be used in this project.
