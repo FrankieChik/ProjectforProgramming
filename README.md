@@ -61,10 +61,10 @@ In order to figure out the hidden topics in my corpus, I would first need to cle
 1. 
 ## Interpretation  
 Based on *txt200_keytopics.txt*, we can determine the meanings of each topic. I copy the result and interprete the meanings  as follows:
-0: "activ obes effect pubm cell receptor metabol regul rat mous respons signal adipos_tissu diet control induc mechan adipocyt protein diabet". This topic includes something relate to nutrition. Since rat and mouse (mous) are listed, it may talk about controlling the diet of a rat based on the nutrition of foods.  
-1: "thetaiotaomicron gut genom diet microbiota microbiom commun human gut_microbiota speci host microbi_commun sequenc bacteroidet pubm defin protein sampl compon repres" This topic is related to the microbiota in a human's gut.  
-2: "cell bacteria infect activ respons mous pathogen lp host epitheli_cell ibd induc diseas colon gut antigen intestin bacteri immun interact" This topic may suggest that human may be infected by mouse which contains pathogen.  
-3: "metabolit metabol model bile_acid metabolom sampl proﬁl observ correl method peak mous plasma acid urin spectrum variat metabonom extract liver" This is a topic of experiment in which a one's guts such as liver and gall are sample to be studied.  
+0: "activ obes effect pubm cell receptor metabol regul rat mous respons signal adipos_tissu diet control induc mechan adipocyt protein diabet". **This topic includes something relate to nutrition. Since rat and mouse (mous) are listed, it may talk about controlling the diet of a rat based on the nutrition of foods.**  
+1: "thetaiotaomicron gut genom diet microbiota microbiom commun human gut_microbiota speci host microbi_commun sequenc bacteroidet pubm defin protein sampl compon repres" **This topic is related to the microbiota in a human's gut.**  
+2: "cell bacteria infect activ respons mous pathogen lp host epitheli_cell ibd induc diseas colon gut antigen intestin bacteri immun interact" **This topic may suggest that human may be infected by mouse which contains pathogen.**  
+3: "metabolit metabol model bile_acid metabolom sampl proﬁl observ correl method peak mous plasma acid urin spectrum variat metabonom extract liver" **This is a topic of experiment in which a one's guts such as liver and gall are sample to be studied.**  
 4: "probiot diseas effect child microbiota lactobacillu infect infant eﬀect colon diarrhea human pubm microb intestin research nutrit improv strain supplement"
 5	0.10513	sampl sequenc detect bacteria divers subject speci clone pcr primer rrna_gene product repres commun isol microbiota patient method obtain comparison 
 6	0.08742	mous cell anim colon experi control steril strain isol cultur medium infect assay level tube zebrafish show perform indic fish 
