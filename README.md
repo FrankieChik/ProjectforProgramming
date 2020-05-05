@@ -5,10 +5,9 @@ In this project, I attempt to practice my skill of writing python code.
 As will shown, the project has different sections.  
 The corpus I will use **text_files** in this project is provided by the instructors.  
 This corpus has **nine** subdirectories, and all files are categorized into these nine subdirectories according to the years they were published (2001-2009).
-In preparation, I have read three articles provided. They are:  
+In preparation, I have read two articles provided. They are:  
   *  "Topic modeling made just simple enough"  
-  *  
-  *  
+  *  "Analyzing Documents with TF-IDF"
 
 ## Bibliography  
 I am not familiar with the corpus. Thus, I have to know how many documents my corpus have and the number of them in each year.  
@@ -59,7 +58,9 @@ In order to figure out the hidden topics in my corpus, I would first need to cle
   The information in *txt200_keytopics.txt* is quite easy to understand. This document tells is the overall weights of each topic in the corpus. We can see in this document that topic number 8, which is the nineth topic, is the most dominant one.  
   
 ## Visualization  
-1. 
+1. In the first section in which I created a list of the data, I have already conducted my visualization. The figure **Number of Publications.png** is a line plot to show the number of publications by years.
+2. The second visualization in my project is **Topic Weights in the Corpus.png**. This bar plot shows us the weights of each topic we have got from previous analysis. In order to create this bar plot, I have to split the data in **txt200_topickeys.txt'** into three groups by **\t** in a dictionary. After that, I could create a plot by correctly locating the data in the dictionary.  
+3. I have also created bar plot **Dominant Topics in Documents.png**. Both bar plots tell me a very interesting thing. Although *Topic 9* is the most dominent topic in the entire corpus, it is Topic 7 in **Dominant Topics in Documents.png**, which is Topic 8 in **Topic Weights in the Corpus.png** serves as the dominent topic in most of the individual documents in the entire corpus. Does this mean that Topic 9 is fundamentally important in the corpus as a whole, even some documents do not treat it very well? Put in another way, Topic 9 may be a topic scholars have been concerned about. However, this may not be the main theme of every document. Nevertheless, it is relevant to the main theme of a specific document and a specific topic besides Topic 9.
 
 ## Interpretation  
 Based on *txt200_keytopics.txt*, we can determine the meanings of each topic. I interprete the meanings as follows (see *txt200_keytopics.txt* for the keyterms of each topic):  
