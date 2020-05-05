@@ -19,6 +19,7 @@ from gensim.models.phrases import Phraser
 from nltk.util import ngrams
 import warnings
 import seaborn as sns
+from nltk import FreqDist
 
 
 corpus='/Users/hinmingfrankiechik/Desktop/text_files'
@@ -62,7 +63,7 @@ df.to_csv('/Users/hinmingfrankiechik/Desktop/Bibliography.csv', index = False)
 
 publication_information = df['Year'].value_counts().sort_index(ascending=True)
 print(publication_information)
-publication_information.plot.bar(x='Year', y='Number')
+publication_information.plot(x='Year', y='Number')
 plt.title("Number of Publications by Years")
 plt.tight_layout()
 plt.show()
