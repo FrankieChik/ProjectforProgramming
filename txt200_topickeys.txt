@@ -1,0 +1,10 @@
+0	0.07498	activ obes effect pubm cell receptor metabol regul rat mous respons signal adipos_tissu diet control induc mechan adipocyt protein diabet 
+1	0.07705	thetaiotaomicron gut genom diet microbiota microbiom commun human gut_microbiota speci host microbi_commun sequenc bacteroidet pubm defin protein sampl compon repres 
+2	0.08841	cell bacteria infect activ respons mous pathogen lp host epitheli_cell ibd induc diseas colon gut antigen intestin bacteri immun interact 
+3	0.06631	metabolit metabol model bile_acid metabolom sampl proﬁl observ correl method peak mous plasma acid urin spectrum variat metabonom extract liver 
+4	0.0869	probiot diseas effect child microbiota lactobacillu infect infant eﬀect colon diarrhea human pubm microb intestin research nutrit improv strain supplement 
+5	0.10513	sampl sequenc detect bacteria divers subject speci clone pcr primer rrna_gene product repres commun isol microbiota patient method obtain comparison 
+6	0.08742	mous cell anim colon experi control steril strain isol cultur medium infect assay level tube zebrafish show perform indic fish 
+7	0.13069	sequenc genom metagenom sampl method protein cluster commun databas contig read approach assembl set dna speci exampl fragment case popul 
+8	0.19995	host human microb bacteria exampl pathogen research speci biolog interact microbi infect diseas chees requir process genet insect specif evolut 
+9	0.1057	protein strain genom plasmid activ bacteria coli isol lactobacillu speci encod sequenc enzym growth pathway identiﬁ bacteriol speciﬁc cell presenc 
